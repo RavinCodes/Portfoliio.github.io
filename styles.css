@@ -422,7 +422,7 @@ section{
     font-size: 2.5rem;
     color:var(--black);
     text-transform: uppercase;
-    transform: translateY(-5rem);
+    transform: translateY(-7rem);
     opacity: 0;
     transition-delay: .3s;
 }
