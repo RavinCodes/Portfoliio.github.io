@@ -415,6 +415,7 @@ section{
 
 .portfolio .box-container .box:hover .content{
     transform: scale(1);
+    border:2px solid var(--green);
 }
 
 .portfolio .box-container .box .content h3{
