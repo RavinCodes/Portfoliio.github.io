@@ -470,7 +470,7 @@ section{
     color:var(--black);
 }
 
-.credits span{
+.credits span a{
     color: var(--green);
 }
 
