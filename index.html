@@ -55,7 +55,7 @@
 
     <div class="content">
         <h3>Ravin codes</h3>
-        <p>I am a front-end developer</p>
+        <p>I am a <span class="typedText"> <span></p>
         <a href="#contact" class="btn">Let's Connect</a>
     </div>
 
@@ -228,7 +228,7 @@
             <img src="img-6.png" alt="">
             <div class="content">
                 <h3>CALCULATOR</h3>
-                <a href="#" class="btn">View</a>
+                <a href="#" class="btn">View Code</a>
             </div>
         </div>
 
@@ -245,11 +245,11 @@
     <h1 class="heading"> <span>contact</span> me </h1>
 
     <form action="https://formspree.io/f/mrgjjgkv" method="POST">
-        <input name="Full Name" type="text" placeholder="your name" class="box">
-        <input name="Email Account" type="email" placeholder="your email" class="box">
-        <input name="Subject" type="text" placeholder="subject" class="box">
-        <textarea name="Message Information" class="box" placeholder="your message" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn">
+        <input name="Full Name" type="text" placeholder="Your Name" class="box">
+        <input name="Email Account" type="email" placeholder="Your Email" class="box">
+        <input name="Subject" type="text" placeholder="Subject" class="box">
+        <textarea name="Message Information" class="box" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send Message" class="btn">
     </form>
 
 </section>
@@ -258,9 +258,24 @@
 
 <div class="credits"> created by <span><a href="https://www.instagram.com/ravin.codes/">RavinCodes</a></span> | all rights reserved </div>
 
+<!-- Typed Js Link CDN -->
+    
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 <!-- custom js file link  -->
+    
 <script src="portfolio.js"></script>
+    
+    <script>
+    
+        var typed = new Typed(.typedText, {
+                    strings: [ "Frontend Freelancer", "Blogger", "Content Creator" ],
+                    typeSpeed: 150,
+                    reverseSpeed: 150,
+                    loop: true
+        });
+    
+    </script>
 
 </body>
 </html>
