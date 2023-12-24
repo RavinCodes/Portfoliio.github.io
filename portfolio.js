@@ -5,6 +5,14 @@ menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     header.classList.toggle('active');
 }
+        var typed = new Typed(.typedText, {
+                    strings: [ "Frontend Freelancer", "Blogger", "Content Creator" ],
+                    typeSpeed: 150,
+                    reverseSpeed: 150,
+                    loop: true
+        });
+
+
 let themeToggler = document.querySelector('#theme-toggler');
 
 themeToggler.onclick = () =>{
